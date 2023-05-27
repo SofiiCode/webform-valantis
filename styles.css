@@ -1,0 +1,151 @@
+/* *{
+	padding: 0;
+	margin: 0;
+	border: 0;
+} */
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* :focus,:active{outline: none;}
+a:focus,a:active{outline: none;} */
+
+/* nav,footer,header,aside{display: block;} */
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+/* a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;} */
+ul li{list-style: none;}
+
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+	font-size: 20px;
+	color: red;
+}
+.container-fluid{
+    padding: 0;
+}
+header{
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    
+    height: 103px;
+}
+.row{
+    margin: 0 auto;
+}
+.logo-wrapper img{
+padding-right: 10px;
+}
+h1{
+ color: black;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 36px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+margin: 0;
+}
+.nav-wrapper{
+
+}
+nav li{
+     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: normal;
+padding-left: 20px;
+font-size: 16px;
+line-height: 36px;
+letter-spacing: 0.05em;
+}
+ul{
+    margin: 0;
+}
+.language-wrapper{
+    padding-right: 34px;
+    padding-left: 20px;
+}
+.language-wrapper span{
+padding: 9px;
+}
+.signup-btn{
+    margin-right: 35px;
+    width: 84px;
+}
+.signup-btn a{
+   
+    text-decoration: none;
+       color: black;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 36px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+.login-btn{
+   
+    background-color: #F1C510;
+    border: 2px solid #F1C510;
+    width: 129px;
+    height: 50px;
+    border-radius: 10px ;
+}
+.login-btn a{
+ 
+    text-decoration: none;
+    font-weight: 900;
+font-size: 16px;
+line-height: 36px;
+font-family: 'Raleway';
+font-style: normal;
+color: #fff;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+}
+.login-btn img{
+    text-align: center;
+ align-items: center;
+    padding-right: 6px;
+    
+}
+main{
+   
+}
+.background{
+      max-width: 100%;
+    height: auto;
+}
