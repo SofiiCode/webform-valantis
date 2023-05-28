@@ -117,7 +117,7 @@ letter-spacing: 0.1em;
 text-transform: uppercase;
 }
 .login-btn{
-   
+   display: flex;
     background-color: #F1C510;
     border: 2px solid #F1C510;
     width: 129px;
@@ -142,10 +142,114 @@ text-transform: uppercase;
     padding-right: 6px;
     
 }
-main{
-   
+.burger-icon{
+    display: none;
 }
-.background{
-      max-width: 100%;
-    height: auto;
+.form-wrapper{
+    width: 659px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 96px ;
+}
+.form-wrapper h2{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 183.2%;
+color: #000000;
+}
+.form-subtitle{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: rgba(0, 0, 0, 0.5);
+}
+input::placeholder{
+    padding-left: 25px;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: #F4F4F4;
+border: 1px solid #E9E9E9;
+border-radius: 22.5px;
+}
+label{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 183.2%;
+/* or 29px */
+
+
+color: #000000;
+}
+.icon-password{
+    position: absolute;
+    right: 15px;
+    top: 15px; 
+}
+#password{
+    width: 100%;
+}
+.password-wrapper{
+    position: relative;
+}
+
+
+
+/* Classes for validation inputs */
+.right{
+    background: rgba(102, 184, 85, 0.1);
+border: 1.5px solid #66B855;
+}
+.wrong{
+    background: rgba(234, 67, 53, 0.1);
+border: 1.5px solid #EA4335;
+}
+.warning-massage{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 183.2%;
+text-align: right;
+color: #EA4335;
+
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  min-width: 320px;
+  position: relative;
+  overflow-x: hidden;
+}
+main {
+  background-image: url(./images/background.png);
+  background-position: top center;
+  background-attachment: fixed;
+  min-height: 668px;
+  position: relative;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 1100px) {
+  nav,.signup-btn,.login-btn{
+    display: none;
+  }
+  .login-btn{
+    display: none;
+  }
+  .burger-icon{
+    display: block;
+  }
 }
