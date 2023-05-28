@@ -261,6 +261,46 @@ color: #898989;
     border: 1px solid #898989;
 
 }
+.facebook-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+    width: 134px;
+height: 54px;
+background: #1877F2;
+border-radius: 30px;
+}
+.google-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 133px;
+height: 54px;
+background: #FFFFFF;
+box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+border-radius: 30px;
+}
+.apple-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+height: 54px;
+background: #000000;
+border-radius: 30px;
+}
+.login-question{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 183.2%;
+}
+.login-link{
+    padding-left: 10px;
+color: #66B855;
+}
 /* Classes for validation inputs */
 .right{
     background: rgba(102, 184, 85, 0.1);
