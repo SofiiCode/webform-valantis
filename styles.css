@@ -1,18 +1,9 @@
-/* *{
-	padding: 0;
-	margin: 0;
-	border: 0;
-} */
+
 *,*:before,*:after{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-/* :focus,:active{outline: none;}
-a:focus,a:active{outline: none;} */
-
-/* nav,footer,header,aside{display: block;} */
-
 html,body{
 	height: 100%;
 	width: 100%;
@@ -28,18 +19,10 @@ input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
 button::-moz-focus-inner {padding:0;border:0;}
-/* a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;} */
 ul li{list-style: none;}
 
-
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-/*--------------------*/
 
-.bigred{
-	font-size: 20px;
-	color: red;
-}
 
 body {
   margin: 0px;
@@ -81,18 +64,18 @@ header{
     margin: 0 auto;
 }
 .logo-wrapper img{
-padding-right: 10px;
+    padding-right: 10px;
 }
 h1{
- color: black;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 16px;
-line-height: 36px;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-margin: 0;
+    color: black;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0;
 }
 .nav-wrapper{
 
@@ -102,10 +85,10 @@ nav li{
     text-transform: uppercase;
     font-weight: 500;
     font-style: normal;
-padding-left: 20px;
-font-size: 16px;
-line-height: 36px;
-letter-spacing: 0.05em;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
 }
 ul{
     margin: 0;
@@ -115,7 +98,7 @@ ul{
     padding-left: 20px;
 }
 .language-wrapper span{
-padding: 9px;
+    padding: 9px;
 }
 .signup-btn{
     margin-right: 35px;
@@ -124,14 +107,14 @@ padding: 9px;
 .signup-btn a{
    
     text-decoration: none;
-       color: black;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 16px;
-line-height: 36px;
-letter-spacing: 0.1em;
-text-transform: uppercase;
+    color: black;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 .login-btn{
    display: flex;
@@ -145,17 +128,17 @@ text-transform: uppercase;
  
     text-decoration: none;
     font-weight: 900;
-font-size: 16px;
-line-height: 36px;
-font-family: 'Raleway';
-font-style: normal;
-color: #fff;
-letter-spacing: 0.2em;
-text-transform: uppercase;
+    font-size: 16px;
+    line-height: 36px;
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #fff;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 .login-btn img{
     text-align: center;
- align-items: center;
+    align-items: center;
     padding-right: 6px;
     
 }
@@ -175,19 +158,19 @@ main{
 }
 .form-wrapper h2{
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 183.2%;
-color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 183.2%;
+    color: #000000;
 }
 .form-subtitle{
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-color: rgba(0, 0, 0, 0.5);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 input{
@@ -196,8 +179,8 @@ input{
     height: 50px;
     width: 100%;
     background: #F4F4F4;
-border: 1px solid #E9E9E9;
-border-radius: 22.5px;
+    border: 1px solid #E9E9E9;
+    border-radius: 22.5px;
 }
 input[type="submit"]{
     padding-left: 0;
@@ -205,11 +188,11 @@ input[type="submit"]{
 label{
     padding:  10px 0 10px 0;
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 183.2%;
-color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 183.2%;
+    color: #000000;
 }
 .icon-password{
     position: absolute;
@@ -223,24 +206,25 @@ color: #000000;
     position: relative;
 }
 .requirements-wrapper{
+    margin-top: 10px;
    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.08);
    border-radius: 20px;
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 .requirements-wrapper li{
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 190%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 190%;
 }
 .requirements-wrapper h3{
      padding: 10px 20px 10px 20px;
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 183.2%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 183.2%;
 }
 .requirements-wrapper img{
     margin-right: 20px;
@@ -248,47 +232,44 @@ line-height: 183.2%;
 .check-wrapper{
     padding: 15px 0 15px 0;
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 183.2%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 183.2%;
 }
 .check-wrapper a{
-color: #66B855!important
-}
-.check-wrapper img{
-   
+    color: #66B855!important
 }
 .submit{
     color: #fff;
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 19px;
-line-height: 22px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
     background: #66B855;
     align-items: center;
-text-align: center;
-border-radius: 30px;
-margin-bottom: 28px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 28px;
 }
 .checkbox{
     padding: 7px 30px 7px 30px ;
     margin-bottom: 13px;
-background: #F9F9F9;
-border: 1px solid #D3D3D3;
-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.08);
-border-radius: 20px;
+    background: #F9F9F9;
+    border: 1px solid #D3D3D3;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
 }
 .devider{
     margin: 5px;
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 183.2%;
-text-align: center;
-color: #898989;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 183.2%;
+    text-align: center;
+    color: #898989;
 }
 .line{
     /* width: 179px; */
@@ -301,62 +282,58 @@ color: #898989;
     justify-content: center;
     align-items: center;
    text-align: center;
-    /* width: 134px; */
-height: 54px;
-background: #1877F2;
-border-radius: 30px;
+    height: 54px;
+    background: #1877F2;
+    border-radius: 30px;
 }
 .google-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 133px; */
-height: 54px;
-background: #FFFFFF;
-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
-border-radius: 30px;
+    height: 54px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+    border-radius: 30px;
 }
 .apple-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 134px; */
-height: 54px;
-background: #000000;
-border-radius: 30px;
+    height: 54px;
+    background: #000000;
+    border-radius: 30px;
 }
 .login-question{
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 183.2%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 183.2%;
 }
 .login-link{
     padding-left: 5px;
-color: #66B855;
+    color: #66B855;
 }
 /* Classes for validation inputs */
 .right{
     background: rgba(102, 184, 85, 0.1);
-border: 1.5px solid #66B855;
+    border: 1.5px solid #66B855;
 }
 .wrong{
     background: rgba(234, 67, 53, 0.1);
-border: 1.5px solid #EA4335;
+    border: 1.5px solid #EA4335;
 }
 .warning-wrapper{
     display: none;
 }
 .warning-massage{
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 183.2%;
-text-align: right;
-color: #EA4335;
-
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 183.2%;
+    text-align: right;
+    color: #EA4335;
 }
 
 
@@ -372,33 +349,12 @@ color: #EA4335;
   .burger-icon{
     display: block;
   }
-  /* .facebook-box{
-    margin-right: 10px;
- 
-    width: 83px;
-height: 54px;
-
-}
-  .google-box{
-    margin-right: 10px;
- 
-    width: 83px;
-height: 54px;
-
-}
-  .apple-box{
-    margin-right: 10px;
- 
-    width: 83px;
-height: 54px;
-
-} */
 }
 
 @media (min-width: 801px){
     .form-wrapper{
-    width: 659px;
-    padding: 30px 96px ;
+        width: 659px;
+        padding: 30px 96px ;
 }
     
 }
