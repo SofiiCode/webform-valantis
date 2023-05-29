@@ -77,9 +77,6 @@ h1{
     text-transform: uppercase;
     margin: 0;
 }
-.nav-wrapper{
-
-}
 nav li{
      font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -227,7 +224,7 @@ label{
     line-height: 183.2%;
 }
 .requirements-wrapper img{
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .check-wrapper{
     padding: 15px 0 15px 0;
