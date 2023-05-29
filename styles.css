@@ -167,10 +167,8 @@ main{
     padding-bottom: 50px;
 }
 .form-wrapper{
-   
     background-color: #fff;
     border-radius: 10px;
-    
     margin-left: auto;
     margin-right: auto;
    padding: 24px;
@@ -201,6 +199,9 @@ input{
 border: 1px solid #E9E9E9;
 border-radius: 22.5px;
 }
+input[type="submit"]{
+    padding-left: 0;
+}
 label{
     padding:  10px 0 10px 0;
     font-family: 'Raleway';
@@ -220,6 +221,29 @@ color: #000000;
 }
 .password-wrapper{
     position: relative;
+}
+.requirements-wrapper{
+   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.08);
+   border-radius: 20px;
+  padding-bottom: 10px;
+}
+.requirements-wrapper li{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 190%;
+}
+.requirements-wrapper h3{
+     padding: 10px 20px 10px 20px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 183.2%;
+}
+.requirements-wrapper img{
+    margin-right: 20px;
 }
 .check-wrapper{
     padding: 15px 0 15px 0;
@@ -272,11 +296,12 @@ color: #898989;
 
 }
 .facebook-box{
+    margin-right: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
    text-align: center;
-    width: 134px;
+    /* width: 134px; */
 height: 54px;
 background: #1877F2;
 border-radius: 30px;
@@ -285,7 +310,7 @@ border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 133px;
+    /* width: 133px; */
 height: 54px;
 background: #FFFFFF;
 box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
@@ -295,7 +320,7 @@ border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 134px;
+    /* width: 134px; */
 height: 54px;
 background: #000000;
 border-radius: 30px;
@@ -347,6 +372,27 @@ color: #EA4335;
   .burger-icon{
     display: block;
   }
+  /* .facebook-box{
+    margin-right: 10px;
+ 
+    width: 83px;
+height: 54px;
+
+}
+  .google-box{
+    margin-right: 10px;
+ 
+    width: 83px;
+height: 54px;
+
+}
+  .apple-box{
+    margin-right: 10px;
+ 
+    width: 83px;
+height: 54px;
+
+} */
 }
 
 @media (min-width: 801px){
