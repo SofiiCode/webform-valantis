@@ -162,14 +162,18 @@ text-transform: uppercase;
 .burger-icon{
     display: none;
 }
+main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .form-wrapper{
-    width: 659px;
+   
     background-color: #fff;
     border-radius: 10px;
-    margin-top: 50px;
+    
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 96px ;
+   padding: 24px;
 }
 .form-wrapper h2{
     font-family: 'Raleway';
@@ -187,10 +191,9 @@ font-size: 16px;
 line-height: 150%;
 color: rgba(0, 0, 0, 0.5);
 }
-input::placeholder{
-    padding-left: 25px;
-}
+
 input{
+    padding-left: 25px;
     display: block;
     height: 50px;
     width: 100%;
@@ -220,9 +223,17 @@ color: #000000;
 }
 .check-wrapper{
     padding: 15px 0 15px 0;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 183.2%;
 }
 .check-wrapper a{
 color: #66B855!important
+}
+.check-wrapper img{
+   
 }
 .submit{
     color: #fff;
@@ -253,11 +264,10 @@ font-weight: 600;
 font-size: 14px;
 line-height: 183.2%;
 text-align: center;
-
 color: #898989;
 }
 .line{
-    width: 179px;
+    /* width: 179px; */
     border: 1px solid #898989;
 
 }
@@ -298,7 +308,7 @@ font-size: 16px;
 line-height: 183.2%;
 }
 .login-link{
-    padding-left: 10px;
+    padding-left: 5px;
 color: #66B855;
 }
 /* Classes for validation inputs */
@@ -337,4 +347,12 @@ color: #EA4335;
   .burger-icon{
     display: block;
   }
+}
+
+@media (min-width: 801px){
+    .form-wrapper{
+    width: 659px;
+    padding: 30px 96px ;
+}
+    
 }
